@@ -1,5 +1,5 @@
 # Ex04 Places Around Me
-## Date: 
+## Date: 5/10/2025
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -25,10 +25,134 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 ## CODE
+```
+map.html
+<html>
+<head>
+    <title>
+        My City
+        <link rel ="stylesheet" href="style.css">
+    </title>
+</head>
+<body>
+    <h1 align="center">kalpakkam</h1>
+    <img src="map.png" usemap="#image-map" >
+
+        
+
+<map name="image-map">
+    <area target="" alt="sadras dutch fort" title="sadras dutch fort" href="fort.html" coords="1398,231,1666,366" shape="rect">
+    <area target="" alt="tasmac shop" title="tasmac shop" href="shop.html" coords="1061,551,1129,476,1243,471,1305,546,1254,605,1129,610" shape="poly">
+    <area target="" alt="kalpakkam beach" title="kalpakkam beach" href="beach.html" coords="1447,631,69" shape="circle">
+    <area target="" alt="retreat resort" title="retreat resort" href="resort.html" coords="733,19,1006,136" shape="rect">
+    <area target="" alt="cs wellspring" title="cs wellspring" href="spring.html" coords="296,739,132" shape="circle">
+</map>
+            
+    
+</body>
+</html>
+
+
+fort.html
+<html>
+    <head>
+
+    </head>
+    <body bgcolor="yellow">
+        <h2 align="center">kalpakkam</h2>
+        <br><br>
+        <h3 align ="center">sadras dutch fort</h3>
+        <hr>
+        <br><br>
+        <h4>The Sadras Dutch Fort is a partially ruined, ASI-protected monument in Tamil Nadu, India, originally built by the Dutch for commerce and defense, featuring a large granary and stables now mostly gone. The surviving structures, including strong laterite walls and bastions, alongside a well-maintained Dutch cemetery with 17th and 18th-century graves, offer insight into the fort's commercial and military history before its capture by the British in 1818. </h4>
+        
+
+    </body>
+</html>
+
+spring.html
+<html>
+    <head>
+
+    </head>
+    <body bgcolor="gray">
+        <h2 align="center">kalpakkam</h2>
+        <br><br>
+        <h3 align ="center">cs wellspring</h3>
+        <hr>
+        <br><br>
+        <h4>CS Wellspring is a luxury wellness resort and investment opportunity by Sigaram Holdings Pvt. Ltd., located near Mahabalipuram, offering a combination of vacation amenities and holistic wellness services like naturopathy, yoga, and meditation, set in an eco-friendly environment with villas and beautiful landscapes, aiming to provide a rejuvenating retreat for guests and a lucrative opportunity for investors.  </h4>
+
+    </body>
+</html>
+
+resort.html
+<html>
+    <head>
+
+    </head>
+    <body bgcolor="azure">
+        <h2 align="center">kalpakkam</h2>
+        <br><br>
+        <h3 align ="center">retreat resort</h3>
+        <hr>
+        <br><br>
+        <h4>A "retreat resort" is a hospitality establishment offering a peaceful, comfortable setting for relaxation, healing, or personal growth, often with minimalist and tranquil environments, though some may incorporate luxury and comfort like traditional resorts. These destinations provide services such as elegant accommodations, dining, swimming pools, lush gardens, and other amenities like hot tubs or fitness facilities, serving as a convenient base for exploring local attractions while ensuring a relaxing experience. </h4>
+
+    </body>
+</html>
+
+beach.html
+<html>
+    <head>
+
+    </head>
+    <body bgcolor="blue">
+        <h2 align="center">kalpakkam</h2>
+        <br><br>
+        <h3 align ="center">kalpakkam beach</h3>
+        <hr>
+        <br><br>
+        <h4>Kalpakkam beach offers a quiet, family-friendly atmosphere with a blend of natural scenery and modern amenities, including calm waters and rocky patches suitable for relaxed strolls and observing marine life. The beach's environment is influenced by local efforts to manage weed growth and a tsunami wall for protection, along with the surrounding clean, green environment of the township itself. It's a place where visitors can enjoy a laid-back escape while being close to other points of interest, like the Sadras Dutch Fort and the Mahabalipuram UNESCO World Heritage Site. </h4>
+
+    </body>
+</html>
+
+shop.html
+<html>
+    <head>
+
+    </head>
+    <body bgcolor="cyan">
+        <h2 align="center">kalpakkam</h2>
+        <br><br>
+        <h3 align ="center">tasmac shop</h3>
+        <hr>
+        <br><br>
+        <h4>The retail outlets do not have individual names. Instead they are named as "TASMAC Shop XXX", where XXX stands for the outlet number. They are popularly referred to as "wine shops", though they sell other kinds of liquor as well. About half the outlets have bars attached to them.</h4>
+
+    </body>
+</html>
+```
 
 
 ## OUTPUT
+<img width="1241" height="588" alt="image" src="https://github.com/user-attachments/assets/95cc1786-12af-407d-9826-0966977fc7c4" />
 
+
+<img width="1248" height="598" alt="image" src="https://github.com/user-attachments/assets/0bf65d53-3757-46af-b1a0-9e4f620051eb" />
+
+
+<img width="1247" height="593" alt="image" src="https://github.com/user-attachments/assets/b67024db-3f99-467a-9aac-f5c0ab85b0f8" />
+
+
+<img width="1249" height="597" alt="image" src="https://github.com/user-attachments/assets/31a25de6-aa69-4ad6-84f3-7f51ba872b4e" />
+
+
+<img width="1246" height="588" alt="image" src="https://github.com/user-attachments/assets/f1e6c675-7bcd-43fb-910c-af45194dc82c" />
+
+
+<img width="1247" height="588" alt="image" src="https://github.com/user-attachments/assets/15a2faa1-8919-4635-8954-de9ad7be3ab5" />
 
 
 
